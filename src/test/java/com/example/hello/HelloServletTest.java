@@ -26,7 +26,7 @@ public class HelloServletTest {
 		servlet.doGet(null, res);
 
 
-		assertThat(res.getContentType(), equalTo("text/plain;charset=utf-8"));
+		assertThat(res.getContentType(), equalTo("text/plain;charset=utf-7"));
 	}
 
 	static class MockHttpServletResponse implements HttpServletResponse {
